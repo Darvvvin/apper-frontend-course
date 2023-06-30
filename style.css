@@ -1,0 +1,80 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  color: grey;
+}
+
+.sidenav {
+  height: 100%;
+  width: 14rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-right: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidenav-item {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.box {
+  display: block;
+  border: 2px solid grey;
+  width: 2em;
+  height: 2em;
+}
+
+.story {
+  width: 3em;
+  height: 3em;
+}
+
+.circle {
+  border-radius: 100%;
+}
+
+.active {
+  background-color: grey;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.5em;
+}
+
+.stories {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+.post {
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 28rem;
+  margin-top: 2em;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 1em;
+}
+
+img {
+  width: 100%;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+}
