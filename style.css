@@ -27,6 +27,7 @@ body {
 .box {
   display: block;
   border: 2px solid grey;
+  border-radius: 5px;
   width: 2em;
   height: 2em;
 }
@@ -47,19 +48,18 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  width: 100%;
   align-items: center;
-  width: 90%;
+  padding-left: 14em;
 }
 
 .stories {
   display: flex;
   gap: 1em;
-  justify-content: center;
 }
 
 .post {
-  border: 1px solid grey;
+  border: 2px solid grey;
   border-radius: 5px;
   width: 28rem;
   margin-top: 2em;
@@ -85,12 +85,29 @@ body {
 .container-fy {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  border: 1px solid black;
+  border: 2px solid grey;
+  border-radius: 5px;
+  width: 30em;
+  height: fit-content;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+.fy-header {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.container-fy .content{
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
 }
 
 img {
   width: 100%;
-  border-bottom: 1px solid grey;
-  border-top: 1px solid grey;
+  border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
 }
