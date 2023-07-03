@@ -1,5 +1,5 @@
 function reverse(word) {
-  // ... some logic here
+    return word.split(" ").map(w => w.split("").reverse().join("")).toString();
 }
 
 const word = "hello";
