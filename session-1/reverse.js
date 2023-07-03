@@ -13,6 +13,6 @@ function reverse(word) {
   return finalWord
 }
 
-const word = "hello world";
+const word = "hello";
 const reversedWord = reverse(word);
 console.log(reversedWord); // 'olleh'
